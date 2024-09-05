@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+.sec1{
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text1{
+    font-size: 25px;
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+}
+.text2{
+    font-size: 30px;
+    color: hsl(234, 12%, 34%);
+    margin-top: 13px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.text3{
+    white-space: pre;
+    word-break: break-word;
+    color:  hsl(229, 6%, 66%);
+    font-weight: 400;
+    font-size: 13px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.box{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+}
+.boxes .supervisor{
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+.boxes .builder{
+    border-top: 3px solid  hsl(0, 78%, 62%);
+    margin-bottom: 20px;
+} 
+.boxes .karma{
+    border-top: 3px solid hsl(34, 97%, 64%);
+}
+.boxes .calculator{
+    border-top: 3px solid  hsl(212, 86%, 64%);
+}
+
+h3{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(46, 48, 49);
+    margin-bottom: 15px;
+    text-align: left;
+}
+.text{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 13px;
+    color: hsl(229, 6%, 66%);
+    text-align: left;
+    font-weight: 200;
+}
+
+img{
+    float: right;
+    width: 50px;
+    margin-top: 30px;
+}
